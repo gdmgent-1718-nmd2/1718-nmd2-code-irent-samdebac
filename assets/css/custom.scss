@@ -1,0 +1,17 @@
+---
+---
+@charset "UTF-8";
+@import "custom";
+body{
+background-color: #181818;
+color:lightgray;
+font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.homeintro{
+    height: 100vh;
+    h2{
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(117, 117, 117);
+        }
+}
