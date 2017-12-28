@@ -8,10 +8,239 @@ color:lightgray;
 font-family: 'PT Sans Narrow', sans-serif;
 }
 
-.homeintro{
-    height: 100vh;
-    h2{
-    font-family: 'Abril Fatface', cursive;
-    color: rgb(117, 117, 117);
+.navbar{
+    button{
+        color: #ed6d1a !important;
+        border-color: #ed6d1a !important;
+
+        &:hover {color: lightgray !important; }
+    span{
+        color: #ed6d1a !important; 
+    }
+}
+    a{
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #ed6d1a !important;
+        font-size: 1.3rem;
+
+        &:hover { color: lightgrey !important; 
         }
+    } 
+}
+
+.homeintro{
+    height: 100%;
+    padding-top: 6%;
+    padding-bottom: 15%;
+   h1{
+    font-size: 1rem;
+    border-bottom: 2px solid lightgray;
+    margin-top: 5%;
+   }
+   h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.2rem;
+    color: #ed6d1a;
+    margin-top: 15%;
+        }
+    p{
+        display: flex;
+        max-width: 80%;
+        float: right;
+    }
+    img{
+       margin-top: 5%; 
+    }
+}
+
+.homemidden{
+    height: 100%;
+    background-color: #333333;
+    h2{
+        margin-top: 15%;
+        align-items: center;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 1.2rem;
+        color: #ed6d1a;
+    }
+    p{
+        color: #a3a3a3;
+    }
+    img{
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+}
+
+.homeverzend{
+    height: 100%;
+    padding-top:15%;
+    padding-bottom: 15%;
+
+    h2{
+        font-family: 'Abril Fatface', cursive;
+        font-size: 1.2rem;
+        color: #ed6d1a;
+    }
+}
+
+.homemerken{
+    height: 100%;
+    background-color: #333333;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.shopintro{
+    h1{
+        font-family: 'Abril Fatface', cursive;
+        font-size: 2rem;
+        border-bottom: 2px solid lightgrey;
+        margin-top: 5%;
+    }
+    h2{
+    font-size: 1.5rem;
+    color: #ed6d1a;
+    marging-top: 3%;
+    }
+}
+
+.shoptekst{
+    padding-bottom: 15%;
+    h2{
+        color: #ed6d1a;
+        font-family: 'Abril Fatface', cursive;
+    }
+    a{
+        text-decoration: none;
+    }
+    button{
+    color: #181818;
+    background-color: #ed6d1a;
+    font-family: 'Abril Fatface', cursive;
+    border: none;
+
+    &:hover{
+        color: #181818;
+        background-color: lightgrey;
+        border: none;
+    }
+    }
+}
+
+
+.winkelintro{
+    h1{
+        font-family: 'Abril Fatface', cursive;
+        font-size: 2rem;
+        border-bottom: 2px solid lightgrey;
+        margin-top: 5%;
+    }
+    ol{
+        background-color: #181818;
+        a{
+            color: #ed6d1a;
+            text-decoration: none;
+        }
+    }
+}
+
+.form-control{
+    background-color: #ed6d1a;
+    color: #181818;
+    border: none;
+    
+}
+
+.prijs{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.8rem;
+}
+
+.winkelknop{
+    margin-top: 5%;
+    a{
+        text-decoration: none;
+    }
+    button{
+    color: #181818;
+    background-color: #ed6d1a;
+    font-family: 'Abril Fatface', cursive;
+    border: none;
+
+    &:hover{
+        color: #181818;
+        background-color: lightgrey;
+        border: none;
+    }
+}
+}
+
+.invul{
+    input{
+        background-color: lightgrey;
+        color: #ed6d1a;
+    }
+}
+
+.adresknop{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    a{
+        text-decoration: none;
+    }
+    button{
+    color: #181818;
+    background-color: #ed6d1a;
+    font-family: 'Abril Fatface', cursive;
+    border: none;
+
+    &:hover{
+        color: #181818;
+        background-color: lightgrey;
+        border: none;
+    }
+}
+}
+
+.wijzen{
+    img{
+        margin: 2%;
+    }
+    h3{
+        font-family: 'Abril Fatface', cursive;
+        font-size: 1rem;
+        margin: 2%;
+    }
+}
+
+.contacttekst{
+    h2{
+        font-family: 'Abril Fatface', cursive;
+        color: #ed6d1a;
+        margin-top: 3%;
+    }
+    a{
+        text-decoration: none;
+        color: lightgrey;
+    }
+}
+
+.card-header{
+    background-color: #ed6d1a;
+    font-family: 'Abril Fatface', cursive;
+    border: none;
+    a{
+        text-decoration: none;
+        color: #181818;
+    }
+}
+
+.card-body{
+    color: #181818;
+    border: none;
+}
+
+.card{
+    border: none;
 }
